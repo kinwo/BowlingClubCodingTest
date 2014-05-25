@@ -5,6 +5,8 @@ import bowlingclub.scoring.BowlingGameScoringRule;
 import bowlingclub.scoring.impl.BowlingGameScoringIteration;
 
 /**
+ * Bowling game rule for extra score obtained through Bowl
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameRuleBowlExtraScore implements BowlingGameScoringRule {

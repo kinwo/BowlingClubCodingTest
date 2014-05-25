@@ -79,4 +79,36 @@ public class BowlingGameTest {
         assertEquals(300, game.score());
     }
 
+    @Test
+    public void testZeroPinScore() {
+        game.roll(0);
+        game.roll(0);
+        assertEquals(0, game.score());
+    }
+
+    @Test
+    public void testStrikeThenSparePinScore() {
+        game.roll(10);
+        game.roll(2);
+        game.roll(3);
+
+        game.roll(1);
+        game.roll(9);
+        game.roll(1);
+
+        assertEquals(32, game.score());
+    }
+
+    @Test
+    public void testSpareThenStrikePinScore() {
+        game.roll(1);
+        game.roll(9);
+        game.roll(1);
+
+        game.roll(10);
+        game.roll(2);
+        game.roll(3);
+
+        assertEquals(32, game.score());
+    }
 }

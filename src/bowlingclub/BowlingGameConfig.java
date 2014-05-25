@@ -1,6 +1,8 @@
 package bowlingclub;
 
 /**
+ * Simple POJO class containing the game configuration.
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameConfig {

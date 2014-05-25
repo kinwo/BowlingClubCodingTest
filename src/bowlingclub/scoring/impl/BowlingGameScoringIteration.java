@@ -4,6 +4,10 @@ import bowlingclub.BowlingGameConfig;
 import bowlingclub.scoring.BowlingGameScoringState;
 
 /**
+ * Bowling game scoring iteration for use with rule and processor.
+ *
+ * It is a context Data transfer object encapsulating number of pins, scoring state and configuration.
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameScoringIteration {

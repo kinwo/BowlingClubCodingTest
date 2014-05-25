@@ -34,8 +34,4 @@ public class BowlingGameImpl implements BowlingGame {
         return state.getCurrentNumOfScore();
     }
 
-    @Override
-    public void startNewMatch() {
-        this.state = new BowlingGameScoringState(config);
-    }
 }

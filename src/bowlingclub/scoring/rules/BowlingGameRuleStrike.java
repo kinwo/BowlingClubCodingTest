@@ -7,6 +7,8 @@ import bowlingclub.scoring.BowlingGameScoringState;
 import bowlingclub.scoring.impl.BowlingGameScoringIteration;
 
 /**
+ * Bowling game rule for Strike
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameRuleStrike implements BowlingGameScoringRule {

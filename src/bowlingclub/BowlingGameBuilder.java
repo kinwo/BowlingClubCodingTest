@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * A Bowling game helper class to quickly create a basic BowlingGame instance composed of
+ *
+ * - BowlingGameConfig, list of BowlingGameScoringRule, BowlingGameScoringProcessor
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameBuilder {

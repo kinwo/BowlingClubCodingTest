@@ -5,6 +5,8 @@ import bowlingclub.scoring.BowlingGameScoringRule;
 import bowlingclub.scoring.impl.BowlingGameScoringIteration;
 
 /**
+ * Bowling game rule for Normal score
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameRuleNormalScore implements BowlingGameScoringRule {

@@ -3,6 +3,10 @@ package bowlingclub.scoring;
 import bowlingclub.BowlingGameConfig;
 
 /**
+ * Bowling game scoring context object keeping track of the state of the game including:
+ *
+ * - Current frame level, score
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameScoringState {

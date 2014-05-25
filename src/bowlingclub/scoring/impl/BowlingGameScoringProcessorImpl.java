@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * The implementation of BowlingGameScoringProcessor responsible to process the number of pins using the list of rules.
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameScoringProcessorImpl implements BowlingGameScoringProcessor {

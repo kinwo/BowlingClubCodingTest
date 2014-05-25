@@ -3,6 +3,8 @@ package bowlingclub.scoring;
 import bowlingclub.BowlingGameConfig;
 
 /**
+ * Bowling game frame domain model
+ *
  * Created by henry on 24/05/2014.
  */
 public class BowlingGameFrame {
@@ -15,10 +17,8 @@ public class BowlingGameFrame {
 
     private int frameScore = 0;
 
-    private BowlingGameConfig config;
 
     public BowlingGameFrame(BowlingGameConfig config) {
-        this.config = config;
         this.numOfRemainingTries = config.getNumOfTriesInFrame();
     }
 
