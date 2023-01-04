@@ -63,7 +63,7 @@ public class BowlingGameTest {
 
     @Test
     public void testAllStrikeScore() {
-        for (int i=0; i<10; i++) {
+        for (int i = 0; i < 10; i++) {
             game.roll(10);
             game.roll(10);
         }
@@ -72,7 +72,7 @@ public class BowlingGameTest {
 
     @Test
     public void testExceedMaxFramesScore() {
-        for (int i=0; i<15; i++) {
+        for (int i = 0; i < 15; i++) {
             game.roll(10);
             game.roll(10);
         }
